@@ -25,3 +25,14 @@ main .jumbotron .jumbo-content{
   height: 300px;
   background-color: yellow;
 }
+
+main .portfolio{
+ /*da togliere*/
+  background-color: blue;
+}
+
+main .portfolio ._card{
+  /*da togliere*/
+  height: 150px;
+  border: 1px solid red;
+}
