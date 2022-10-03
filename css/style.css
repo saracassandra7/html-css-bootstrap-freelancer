@@ -1,20 +1,31 @@
+/*generali*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.my-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*debug*/
 [class^="container"], [class="col"]{
   background-color: rgba(124, 214, 214, 0.767);
   border: 1px solid blue;
 }
 
+/*header*/
 header{
   background-color: #2c3e50;
   height: 60px;
   color: white;
 }
 
+/*main*/
+
+/*jumbotron*/
 main .jumbotron{
   background-color: #1abc9c;
   height: 500px;
@@ -26,6 +37,7 @@ main .jumbotron .jumbo-content{
   background-color: yellow;
 }
 
+/*portfolio*/
 main .portfolio{
  /*da togliere*/
   background-color: blue;
@@ -35,4 +47,15 @@ main .portfolio ._card{
   /*da togliere*/
   height: 150px;
   border: 1px solid red;
+}
+
+/*about*/
+main .about{
+  background-color: #1abc9c;
+  height: 400px; /*da rivedere*/
+}
+
+/*contact me*/
+main .contact-me{
+  height: 300px; /*da togliere*/
 }
