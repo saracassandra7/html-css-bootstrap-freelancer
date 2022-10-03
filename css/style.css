@@ -59,3 +59,19 @@ main .about{
 main .contact-me{
   height: 300px; /*da togliere*/
 }
+
+/*footer*/
+footer{
+  height: 300px;
+}
+
+/*footer-top*/
+footer .footer-top{
+  height: 70%;
+  background-color: #3a546d;
+}
+
+footer .footer-bottom{
+  height: 30%;
+  background-color: #2c3e50;
+}
