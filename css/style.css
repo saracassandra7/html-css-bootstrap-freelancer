@@ -14,3 +14,14 @@ header{
   height: 60px;
   color: white;
 }
+
+main .jumbotron{
+  background-color: #1abc9c;
+  height: 500px;
+}
+
+main .jumbotron .jumbo-content{
+  /*da togliere*/
+  height: 300px;
+  background-color: yellow;
+}
