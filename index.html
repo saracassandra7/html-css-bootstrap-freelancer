@@ -149,12 +149,42 @@
     </section>
 
     <!-- contact me -->
-    <section class="contact-me">
+    <section class="contact-me mt-5 mb-5">
       <div class="my-container">
         <div class="container-fluid">
-          <h3>CONTACT ME</h3>
+
+          <h3 class="text-uppercase">contact me</h3>
+          <div class="my-star d-flex justify-content-center align-items-center mb-3">
+            <div class="divide dark"></div>
+            <i class="bi bi-star-fill"></i>
+            <div class="divide dark"></div>
+          </div>
+
           <div class="row">
-            <div class="col">form da compilare</div>
+            <form class="col-10 offset-1 my-form">
+              <div class="mb-3 fw-semibold">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3 fw-semibold">
+                <label for="exampleInputPassword1" class="form-label">Email address</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+
+              <div class="mb-3 fw-semibold">
+                <label for="exampleInputPassword1" class="form-label">Phone number</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              
+              <div class="mb-3 fw-semibold">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary my-btn">Send</button>
+            </form>
           </div>
         </div>
       </div>

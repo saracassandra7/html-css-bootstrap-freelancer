@@ -92,10 +92,22 @@ main .about{
 
 /*contact me*/
 main .contact-me{
-  height: 300px; /*da togliere*/
+  
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.my-form .form-control{
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.my-btn{
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
 }
 
 /*footer*/
