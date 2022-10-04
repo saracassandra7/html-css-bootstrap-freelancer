@@ -27,13 +27,9 @@ header{
   align-items: center;
 }
 
-header .navbar a{
-  color: white !important;
-}
 
 header .my-hamburger{
   border: none;
-   
 }
 
 /*main*/
