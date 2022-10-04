@@ -13,6 +13,24 @@ h3{
   text-align: center;
 }
 
+/*divisore ricorrente con stella */
+.divide{
+  width: 130px;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.bi-star-fill{
+  font-size: 1.7rem;
+  padding: 0 25px;
+}
+
+.divide.white{
+  background-color: white;
+}
+
+
+
 /*debug*/
 /*[class^="container"], [class^="col"]{
   background-color: rgba(124, 214, 214, 0.767);
@@ -38,15 +56,21 @@ header .my-hamburger{
 main .jumbotron{
   background-color: #1abc9c;
   height: 490px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main .jumbotron .jumbo-content{
-  /*da togliere*/
-  height: 300px;
-  background-color: yellow;
+main .jumbotron .image{
+  width: 200px;
+  margin: 0 auto;
+}
+
+main .jumbotron .my-star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*portfolio*/
