@@ -1,9 +1,4 @@
 /*generali*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .my-container{
   width: 70%;
@@ -19,17 +14,26 @@ h3{
 }
 
 /*debug*/
-[class^="container"], [class^="col"]{
+/*[class^="container"], [class^="col"]{
   background-color: rgba(124, 214, 214, 0.767);
   border: 1px solid blue;
-}
+}*/
 
 /*header*/
 header{
   background-color: #2c3e50;
-  height: 60px;
+  height: 90px;
   display: flex;
   align-items: center;
+}
+
+header .navbar a{
+  color: white !important;
+}
+
+header .my-hamburger{
+  border: none;
+   
 }
 
 /*main*/
@@ -37,7 +41,7 @@ header{
 /*jumbotron*/
 main .jumbotron{
   background-color: #1abc9c;
-  height: 500px;
+  height: 490px;
   display: flex;
   justify-content: center;
   align-items: center;
