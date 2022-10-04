@@ -34,12 +34,6 @@ h3{
 }
 
 
-/*debug*/
-/*[class^="container"], [class^="col"]{
-  background-color: rgba(124, 214, 214, 0.767);
-  border: 1px solid blue;
-}*/
-
 /*header*/
 header{
   background-color: #2c3e50;
@@ -47,7 +41,6 @@ header{
   display: flex;
   align-items: center;
 }
-
 
 header .my-hamburger{
   border: none;
@@ -84,7 +77,6 @@ main .portfolio .card img{
 /*about*/
 main .about{
   background-color: #1abc9c;
-  height: 400px; /*da rivedere*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,21 +103,33 @@ main .contact-me{
 }
 
 /*footer*/
-footer{
-  height: 300px;
-}
 
 /*footer-top*/
 footer .footer-top{
-  height: 70%;
+  
   background-color: #3a546d;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.5px solid white;
+  margin: 7px;
+  cursor: pointer;
+}
+
+footer .footer-top .my-span{
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+/*footer bottom*/
 footer .footer-bottom{
-  height: 30%;
+  
   background-color: #2c3e50;
   display: flex;
   justify-content: center;
